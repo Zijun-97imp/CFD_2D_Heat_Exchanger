@@ -1,12 +1,14 @@
 # CFD_2D_Heat_Exchanger
-The heat-exchanger transferom through circular cylinder structure. Using Fortran language.
 
-The below content is presenting the questions:
-*Run a first simulaƟon with Re = 200 (line 646 of the 2D_compressible.f90 file) and nx × ny = 129 × 129 for
-nt = 10000 Ɵme steps with a second order Adams-Bashforth scheme (itemp=1) and a CFL equal to 0.25 (line 48 of
-the 2D_compressible.f90 file). Generate 4 visualisaƟons of the vorƟcity field for nt = 2500,5000,7500,10000.
-Briefly comment on the results in less than 100 words. (Note : The code should be configured for this question,
-no changes are needed).
+## The heat-exchanger transferom through circular cylinder structure. Using Fortran language.
+
+### The below content is presenting the questions:
+
++ Run a first simulaƟon with Re = 200 (line 646 of the 2D_compressible.f90 file) and nx × ny = 129 × 129 for
+  nt = 10000 Ɵme steps with a second order Adams-Bashforth scheme (itemp=1) and a CFL equal to 0.25 (line 48 of
+  the 2D_compressible.f90 file). Generate 4 visualisaƟons of the vorƟcity field for nt = 2500,5000,7500,10000.
+  Briefly comment on the results in less than 100 words. (Note : The code should be configured for this question,
+  no changes are needed).
 
 *We want to increase the CFL number in order to reduce the cost of the simulaƟon. Using the same second order
 Adams-Bashforth scheme (itemp=1), is it possible to run a simulaƟon with a CFL of 0.75? If yes, generate 4
