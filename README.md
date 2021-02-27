@@ -41,7 +41,7 @@
   scp. For the inlet boundary condiƟon, you can look at the subrouƟne initl and use the same profiles for i = 1.5
   For the outlet boundary condiƟon, you can use a simple 1D convection equation:
 
-                                            * ∂ϕ/∂t + Uc(∂ϕ/∂x) = 0 *
+                                                       * ∂ϕ/∂t + Uc(∂ϕ/∂x) = 0 *
                                            
   where ϕ is the quanƟty to be convected at a speed Uc = U0 outside of the computaƟonal domain. To solve this
   equaƟon, you can use an Euler scheme for the Ɵme derivaƟve and a first order scheme for the spaƟal derivaƟve.
