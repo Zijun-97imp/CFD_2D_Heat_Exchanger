@@ -9,6 +9,15 @@
   the 2D_compressible.f90 file). Generate 4 visualisaƟons of the vorƟcity field for nt = 2500,5000,7500,10000.
   Briefly comment on the results in less than 100 words. (Note : The code should be configured for this question,
   no changes are needed).
+  
+  
+                                  ------------------------------------------>             |
+                                  ------------------------------------------>             |
+             V_steady flow        ------------------------------------------>             |
+                                  ------------------------------------------>             |
+                                  ------------------------------------------>             |
+                                  ------------------------------------------>             | outlet        V_output
+                                               phase_of_transfer
 
 
 + We want to increase the CFL number in order to reduce the cost of the simulaƟon. Using the same second order
@@ -32,7 +41,7 @@
   results and discuss the differences (if any) with the first simulaƟon (quesƟon 1) in less than 100 words.
   Copy-paste the four new subrouƟnes in your report. 
 
-+ 6. Modify the code in order to simulate a single cylinder on a domain Lx ×Ly = 20d ×12d, with nx ×ny = 513×257
++ Modify the code in order to simulate a single cylinder on a domain Lx ×Ly = 20d ×12d, with nx ×ny = 513×257
   mesh nodes and with inflow/ouƞlow boundary condiƟons in the streamwise direcƟon. You will have to modify
   the derivaƟve subrouƟnes derix and derxx to account for the new inlet/outlet boundary condiƟons (periodic
   boundary condiƟons are not relevant anymore, the use of non-centered schemes for the first and last points can be
